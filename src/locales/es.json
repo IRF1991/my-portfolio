@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Presentación",
+    "experience": "Experiencia", 
+    "studies": "Estudios",
+    "projects": "Proyectos"
+  },
+  "profile": {
+    "name": "Ismael Raya Fabián",
+    "role": "Data Scientist & Data Analyst",
+    "subtitle": "Python • SQL • Power BI • Machine Learning"
+  },
+  "home": {
+    "description": {
+      "paragraph1": "Después de varios años como cocinero profesional en Alemania y España, he decidido reorientar mi carrera hacia la *programación y el análisis de datos*. Mi experiencia en cocina me ha enseñado a trabajar bajo presión, mantener la *organización y precisión en entornos exigentes*, y *colaborar efectivamente en equipo*.",
+      "paragraph2": "Actualmente curso un máster en *Data Science & IA*, tras haberme preparado previamente de forma autodidacta para llegar con una base sólida. Desarrollo proyectos con *Python*, *SQL*, *Machine Learning* y *Power BI*. Me apasiona descubrir patrones en los datos y resolver problemas complejos.",
+      "paragraph3": "Aunque estoy empezando en este campo, aporto *dedicación, ganas de aprender* y una perspectiva única que me impulsa a crecer como *Data Scientist y Data Analyst*."
+    },
+    "skillsCategories": {
+      "personal": "Aptitudes Personales",
+      "technical": "Aptitudes Técnicas"
+    }
+  },
+  "experience": {
+    "title": "Experiencia",
+    "jobs": [
+      {
+        "title": "Data Science Student",
+        "company": "Evolve Academy",
+        "period": "Oct. 2025 — Actualidad",
+        "description": "Formación intensiva en análisis de datos, estadística, *Python*, *SQL*, *Power BI* y *machine learning*. Desarrollo de proyectos prácticos aplicando modelos predictivos y visualización de datos."
+      },
+      {
+        "title": "Prácticas de Programación",
+        "company": "Davante MEDAC, Sevilla",
+        "period": "2025",
+        "description": "Desarrollo de simulador con *Unity*. Trabajo colaborativo usando *GitHub* y metodología *Scrum*. Diseño y mantenimiento de *bases de datos*. Experiencia en desarrollo de software y gestión de proyectos."
+      },
+      {
+        "title": "Cocinero",
+        "company": "Hoteles y restaurantes - Stuttgart y Sevilla",
+        "period": "2018 — 2024",
+        "description": "Trabajo bajo *presión* y *gestión del tiempo*. *Cumplimiento de estándares de calidad*. *Experiencia dirigiendo equipos* y *coordinación*."
+      }
+    ]
+  },
+  "studies": {
+    "title": "Estudios",
+    "items": [
+      {
+        "title": "Ciclo Superior en Desarrollo de Aplicaciones Multiplataforma",
+        "institution": "Centro Docente Privado MEDAC, Sevilla",
+        "period": "2023 — 2025",
+        "description": "Formación completa en *desarrollo de software multiplataforma*. Programación en *Java*, *C#*, *bases de datos*, *desarrollo web* y *aplicaciones móviles*. Metodologías ágiles y *gestión de proyectos*."
+      },
+      {
+        "title": "Formación Dual Alemana en Cocina", 
+        "institution": "Hotel Marriott Sindelfingen, Stuttgart",
+        "period": "2015 — 2018",
+        "description": "*Formación internacional* en sistema dual alemán. Desarrollo de competencias en *organización*, *estándares de calidad internacionales* y *trabajo multicultural*. Experiencia en entorno empresarial de alto nivel."
+      },
+      {
+        "title": "Ciclo Superior en Administración y Finanzas",
+        "institution": "IES Joaquín Turina, Sevilla", 
+        "period": "2012 — 2014",
+        "description": "Formación en *análisis financiero*, *gestión empresarial* y *tratamiento de datos*. Base sólida en *Excel avanzado*, *contabilidad analítica* y *reporting financiero*."
+      },
+      {
+        "title": "Ciclo Medio en Gestión y Administración de Empresas",
+        "institution": "IES San Bernardo, Sevilla", 
+        "period": "2010 — 2012",
+        "description": "Fundamentos de *gestión empresarial*, *atención al cliente* y *procesos administrativos*. Primera aproximación al *análisis de datos* y *sistemas de información*."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": [
+      {
+        "title": "Sistema Inteligente de Progresión Deportiva",
+        "description": "Aplicación con *arquitectura de datos* diseñada para análisis predictivo de adherencia deportiva. Incluye *recommendation engine* para progresión automática de rutinas y *knowledge graph* de ejercicios.",
+        "metrics": [
+          { "value": "7", "label": "Data Models" },
+          { "value": "ML Ready", "label": "Predicciones" }
+        ],
+        "preview": "Sistema de Recomendación"
+      },
+      {
+        "title": "Portfolio Profesional Vue.js", 
+        "description": "Portfolio responsive con *sistema i18n*, *glassmorphism design* y navegación dinámica. Desarrollo completo con *Vue 3*, *Vite* y arquitectura de componentes modular.",
+        "metrics": [
+          { "value": "3", "label": "Idiomas" },
+          { "value": "100%", "label": "Responsive" }
+        ],
+        "preview": "Web Development"
+      }
+    ]
+  },
+  "common": {
+    "github": "GitHub",
+    "demo": "Demo",
+    "liveDemo": "Live Demo"
+  }
+}

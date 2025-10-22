@@ -1,0 +1,39 @@
+{
+  "name": "ismael-raya-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio showcasing Data Science and full-stack development skills",
+  "author": "Ismael Raya Fabián <ismaelrf1991@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/IRF1991/my-portfolio#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IRF1991/my-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "vue3",
+    "data-science",
+    "frontend",
+    "responsive"
+  ],
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.22",
+    "vue-i18n": "^9.14.5",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7",
+    "vite-plugin-vue-devtools": "^8.0.2"
+  }
+}

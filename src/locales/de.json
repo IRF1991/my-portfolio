@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Über mich",
+    "experience": "Erfahrung", 
+    "studies": "Ausbildung",
+    "projects": "Projekte"
+  },
+  "profile": {
+    "name": "Ismael Raya Fabián",
+    "role": "Datenwissenschaftler & Datenanalyst",
+    "subtitle": "Python • SQL • Power BI • Machine Learning"
+  },
+  "home": {
+    "description": {
+      "paragraph1": "Nach mehreren Jahren als Berufskoch in Deutschland und Spanien habe ich beschlossen, meine Laufbahn in Richtung *Programmierung und Datenanalyse* umzuleiten. Meine Kocherfahrung hat mich gelehrt, unter Druck zu arbeiten, *Organisation und Präzision in anspruchsvollen Umgebungen* aufrechtzuerhalten und *effektiv im Team zu arbeiten*.",
+      "paragraph2": "Derzeit studiere ich einen Master in *Data Science & KI*, nachdem ich mich zuvor autodidaktisch vorbereitet habe, um mit einer soliden Grundlage anzukommen. Ich entwickle Projekte mit *Python*, *SQL*, *Machine Learning* und *Power BI*. Es begeistert mich, Muster in Daten zu entdecken und komplexe Probleme zu lösen.",
+      "paragraph3": "Obwohl ich in diesem Bereich anfange, bringe ich *Engagement, Lernbereitschaft* und eine einzigartige Perspektive mit, die mich antreibt, als *Data Scientist und Data Analyst* zu wachsen."
+    },
+    "skillsCategories": {
+      "personal": "Persönliche Fähigkeiten",
+      "technical": "Technische Fähigkeinen"
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "jobs": [
+      {
+        "title": "Senior Data Scientist",
+        "company": "Tech Solutions Inc.",
+        "period": "2022 — Aktuell",
+        "description": "Entwicklung von Machine-Learning-Modellen für prädiktive Analytik, Optimierung von Datenpipelines und Erstellung interaktiver Dashboards in Power BI. Leitung eines Teams von 3 Datenanalysten."
+      },
+      {
+        "title": "Datenanalyst",
+        "company": "Analytics Corp",
+        "period": "2020 — 2022", 
+        "description": "Analyse großer Datenmengen, Erstellung automatisierter Berichte und Entwicklung von KPIs für strategische Entscheidungsfindung. Implementierung von ETL-Prozessen."
+      }
+    ]
+  },
+  "studies": {
+    "title": "Ausbildung",
+    "items": [
+      {
+        "title": "Master in Data Science",
+        "institution": "Universidad Politécnica de Madrid",
+        "period": "2019 — 2021",
+        "description": "Spezialisierung auf maschinelles Lernen, fortgeschrittene statistische Analyse und Big Data. Abschlussprojekt über Zeitreihenvorhersage im Finanzsektor mit LSTM-Neuronalen Netzen."
+      },
+      {
+        "title": "Bachelor in Mathematik", 
+        "institution": "Universidad Complutense de Madrid",
+        "period": "2015 — 2019",
+        "description": "Solide Grundlage in mathematischer Analysis, Statistik, linearer Algebra und numerischen Methoden. Schwerpunkt in Statistik und Operations Research."
+      },
+      {
+        "title": "Power BI Zertifizierung",
+        "institution": "Microsoft", 
+        "period": "2022",
+        "description": "Microsoft Certified: Data Analyst Associate. Kompetenzen in Datenmodellierung, Visualisierungserstellung und interaktiver Dashboard-Entwicklung."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "items": [
+      {
+        "title": "Verkaufsprognose mit ML",
+        "description": "Machine-Learning-Modell zur Vorhersage von Quartalsverkäufen mit 92% Genauigkeit. Zeitreihenanalyse und externe Faktoren, die die Verkaufsleistung beeinflussen.",
+        "metrics": [
+          { "value": "92%", "label": "Genauigkeit" },
+          { "value": "15%", "label": "ROI Verbesserung" }
+        ],
+        "preview": "Prädiktives Dashboard"
+      },
+      {
+        "title": "Executive KPI Dashboard", 
+        "description": "Interaktives Power BI Dashboard für Echtzeit-KPI-Tracking des Unternehmens. Integration mit mehreren Datenquellen und vollständige Automatisierung.",
+        "metrics": [
+          { "value": "5", "label": "Datenquellen" },
+          { "value": "Echtzeit", "label": "Updates" }
+        ],
+        "preview": "Power BI Dashboard"
+      }
+    ]
+  },
+  "common": {
+    "github": "GitHub",
+    "demo": "Demo",
+    "liveDemo": "Live Demo"
+  }
+}

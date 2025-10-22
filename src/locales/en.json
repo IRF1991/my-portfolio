@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "About",
+    "experience": "Experience", 
+    "studies": "Education",
+    "projects": "Projects"
+  },
+  "profile": {
+    "name": "Ismael Raya Fabián",
+    "role": "Data Scientist & Data Analyst",
+    "subtitle": "Python • SQL • Power BI • Machine Learning"
+  },
+  "home": {
+    "description": {
+      "paragraph1": "After several years as a professional chef in Germany and Spain, I decided to redirect my career towards *programming and data analysis*. My culinary experience taught me to work under pressure, maintain *organization and precision in demanding environments*, and *collaborate effectively in teams*.",
+      "paragraph2": "I am currently pursuing a master's degree in *Data Science & AI*, after preparing myself autodidactically to arrive with a solid foundation. I develop projects with *Python*, *SQL*, *Machine Learning* and *Power BI*. I am passionate about discovering patterns in data and solving complex problems.",
+      "paragraph3": "Although I am starting in this field, I bring *dedication, eagerness to learn* and a unique perspective that drives me to grow as a *Data Scientist and Data Analyst*."
+    },
+    "skillsCategories": {
+      "personal": "Personal Skills",
+      "technical": "Technical Skills"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "title": "Senior Data Scientist",
+        "company": "Tech Solutions Inc.",
+        "period": "2022 — Present",
+        "description": "Development of machine learning models for predictive analytics, data pipeline optimization, and creation of interactive dashboards in Power BI. Leading a team of 3 data analysts."
+      },
+      {
+        "title": "Data Analyst",
+        "company": "Analytics Corp",
+        "period": "2020 — 2022", 
+        "description": "Analysis of large data volumes, creation of automated reports, and development of KPIs for strategic decision-making. Implementation of ETL processes."
+      }
+    ]
+  },
+  "studies": {
+    "title": "Education",
+    "items": [
+      {
+        "title": "Master's in Data Science",
+        "institution": "Universidad Politécnica de Madrid",
+        "period": "2019 — 2021",
+        "description": "Specialization in machine learning, advanced statistical analysis, and big data. Final project on time series prediction in the financial sector using LSTM neural networks."
+      },
+      {
+        "title": "Bachelor's in Mathematics", 
+        "institution": "Universidad Complutense de Madrid",
+        "period": "2015 — 2019",
+        "description": "Solid foundation in mathematical analysis, statistics, linear algebra, and numerical methods. Mention in Statistics and Operations Research."
+      },
+      {
+        "title": "Power BI Certification",
+        "institution": "Microsoft", 
+        "period": "2022",
+        "description": "Microsoft Certified: Data Analyst Associate. Skills in data modeling, visualization creation, and interactive dashboard development."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Sales Prediction with ML",
+        "description": "Machine learning model to predict quarterly sales with 92% accuracy. Time series analysis and external factors impacting sales performance.",
+        "metrics": [
+          { "value": "92%", "label": "Accuracy" },
+          { "value": "15%", "label": "ROI Improvement" }
+        ],
+        "preview": "Predictive Dashboard"
+      },
+      {
+        "title": "Executive KPI Dashboard", 
+        "description": "Interactive Power BI dashboard for real-time corporate KPI tracking. Integration with multiple data sources and complete automation.",
+        "metrics": [
+          { "value": "5", "label": "Data Sources" },
+          { "value": "Real-time", "label": "Updates" }
+        ],
+        "preview": "Power BI Dashboard"
+      }
+    ]
+  },
+  "common": {
+    "github": "GitHub",
+    "demo": "Demo",
+    "liveDemo": "Live Demo"
+  }
+}

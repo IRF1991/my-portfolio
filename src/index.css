@@ -1,0 +1,156 @@
+/* Scroll suave para la navegación por anclas */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tipografía y colores base */
+html, body, #app {
+  height: 100%;
+}
+
+body {
+  background-color: #0d0b1b;
+  color: white;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Reserve symmetric gutters so the presence of a vertical scrollbar
+     no longer biases the visual center to la derecha */
+  scrollbar-gutter: stable both-edges;
+}
+
+/* Overlay de granulado */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* para no interferir con el cursor */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4"><circle cx="2" cy="2" r="0.5" fill="white" fill-opacity="0.05"/></svg>');
+  background-size: 6px 6px;
+  background-repeat: repeat;
+  z-index: 999; /* encima del fondo pero debajo del contenido */
+}
+/* Iluminación suave para el cursor */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.2s;
+
+  background: radial-gradient(
+    circle,
+    rgba(255,255,255,0.015) 0%,    /* centro */
+    rgba(255,255,255,0.010) 20%,  /* círculo 2 */
+    rgba(255,255,255,0.005) 40%,   /* círculo 3 */
+    rgba(255,255,255,0.003) 60%,  /* círculo 4 */
+    rgba(255,255,255,0.001) 80%      /* borde difuminado */
+  );
+}
+
+/* Responsive whole-app scaling: adjusts visual scale on small screens while keeping layout fit */
+:root {
+  --app-scale: 1;
+  /* unified horizontal gap used for aligning content edges with the sidebar title inset */
+  --edge-gap: 2.2rem;
+  /* visual thickness of the divider line at the right edge of the sidebar */
+  --divider-width: 3px;
+}
+
+/* Sidebar width shared variable so divider and content always align */
+:root {
+  --sidebar-width: min(650px, 40vw);
+}
+
+/* Adjust sidebar width at breakpoints */
+@media (max-width: 1200px) {
+  :root { --sidebar-width: min(300px, 45vw); }
+}
+
+@media (max-width: 900px) {
+  :root { --sidebar-width: min(280px, 40vw); }
+}
+
+@media (max-width: 768px) {
+  :root { --sidebar-width: min(260px, 85vw); }
+}
+
+/* Adjust scale based on viewport width */
+@media (max-width: 1200px) {
+  :root { --app-scale: 0.97; }
+}
+
+@media (max-width: 900px) {
+  :root { --app-scale: 0.94; }
+}
+
+@media (max-width: 768px) {
+  :root { --app-scale: 0.88; }
+}
+
+@media (max-width: 480px) {
+  :root { --app-scale: 0.82; }
+}
+
+/* More gentle scale reduction for short viewports */
+@media (max-height: 800px) {
+  :root { --app-scale: min(var(--app-scale), 0.94); }
+}
+
+@media (max-height: 700px) {
+  :root { --app-scale: min(var(--app-scale), 0.90); }
+}
+
+@media (max-height: 600px) {
+  :root { --app-scale: min(var(--app-scale), 0.86); }
+}
+
+/* Height-based scaling for short viewports (mobile landscape / small windows) */
+@media (max-height: 900px) {
+  :root { --app-scale: min(var(--app-scale), 0.95); }
+}
+
+@media (max-height: 800px) {
+  :root { --app-scale: min(var(--app-scale), 0.92); }
+}
+
+@media (max-height: 700px) {
+  :root { --app-scale: min(var(--app-scale), 0.88); }
+}
+
+@media (max-height: 600px) {
+  :root { --app-scale: min(var(--app-scale), 0.84); }
+}
+
+/* NOTE: scaling moved to .content in MainLayout so sidebar stays visible */
+
+/* Prevent small bottom gap due to subpixel rounding by ensuring body covers viewport */
+html, body {
+  background-color: #0d0b1b;
+}
+
+/* Apply controlled global scale to the whole main layout so mobile shows the same layout proportionally */
+#main-layout {
+  transform-origin: left top;
+  transform: scale(var(--app-scale));
+  width: calc(100% / var(--app-scale));
+  height: calc(100vh / var(--app-scale));
+  transition: transform 180ms ease, width 180ms ease, height 180ms ease;
+  will-change: transform, width, height;
+}
+
+/* Prevent visible gaps on scaled layouts by ensuring body overflow doesn't show underflow */
+html, body, #app {
+  background-color: #0d0b1b;
+  overflow-x: hidden;
+}
