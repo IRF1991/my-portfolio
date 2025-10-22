@@ -93,11 +93,12 @@
                 <span class="tech-tag">i18n</span>
               </div>
               
-              <div class="project-links">
-                <a href="https://github.com/IRF1991/my-portfolio" class="project-link github" target="_blank" rel="noopener">
+              <!-- GitHub link temporalmente oculto - issue con Vue Router -->
+              <!-- <div class="project-links">
+                <a href="https://github.com/IRF1991/my-portfolio" target="_blank" rel="noopener noreferrer" class="project-link github">
                   <span>{{ $t('common.github') }}</span>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

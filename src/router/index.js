@@ -36,4 +36,6 @@ const router = createRouter({
   }
 })
 
+// Navigation guard removed - external links issue
+
 export default router
