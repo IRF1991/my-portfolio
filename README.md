@@ -93,9 +93,9 @@ Este portfolio está optimizado para deployment en:
 
 No se requieren variables de entorno adicionales. El proyecto funciona out-of-the-box.
 
-## 🤝 Contacto
+### 🤝 Contacto
 
-- **Portfolio**: [En construcción]
+- **Portfolio**: [https://github.com/IRF1991/my-portfolio](https://github.com/IRF1991/my-portfolio)
 - **LinkedIn**: [Ismael Raya Fabián]
 - **GitHub**: [@IRF1991](https://github.com/IRF1991)
 - **Email**: [Por confirmar]
@@ -202,7 +202,7 @@ No additional environment variables required. The project works out-of-the-box.
 
 ### 🤝 Contact
 
-- **Portfolio**: [Under construction]
+- **Portfolio**: [https://github.com/IRF1991/my-portfolio](https://github.com/IRF1991/my-portfolio)
 - **LinkedIn**: [Ismael Raya Fabián]
 - **GitHub**: [@IRF1991](https://github.com/IRF1991)
 - **Email**: [To be confirmed]
@@ -309,7 +309,7 @@ Keine zusätzlichen Umgebungsvariablen erforderlich. Das Projekt funktioniert ou
 
 ### 🤝 Kontakt
 
-- **Portfolio**: [Im Aufbau]
+- **Portfolio**: [https://github.com/IRF1991/my-portfolio](https://github.com/IRF1991/my-portfolio)
 - **LinkedIn**: [Ismael Raya Fabián]
 - **GitHub**: [@IRF1991](https://github.com/IRF1991)
 - **Email**: [Zu bestätigen]

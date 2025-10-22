@@ -45,8 +45,8 @@
             </div>
             
             <div class="project-links">
-              <a href="#" class="project-link github" target="_blank" rel="noopener">
-                <span>{{ $t('common.github') }}</span>
+              <a href="#" class="project-link github disabled" target="_blank" rel="noopener">
+                <span>{{ $t('common.github') }} (En desarrollo)</span>
               </a>
             </div>
           </div>
@@ -94,7 +94,7 @@
               </div>
               
               <div class="project-links">
-                <a href="#" class="project-link github" target="_blank" rel="noopener">
+                <a href="https://github.com/IRF1991/my-portfolio" class="project-link github" target="_blank" rel="noopener">
                   <span>{{ $t('common.github') }}</span>
                 </a>
               </div>
@@ -348,6 +348,17 @@ export default {
 .project-link.github:hover {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.4);
+}
+
+.project-link.github.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: rgba(128, 128, 128, 0.1);
+}
+
+.project-link.github.disabled:hover {
+  background: rgba(128, 128, 128, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .project-link.demo {
