@@ -105,6 +105,13 @@
                    @click.stop="openExternalLink">
                   <span>{{ $t('common.github') }}</span>
                 </a>
+                <a href="https://ismaelraya.netlify.app/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link demo"
+                   @click.stop="openExternalLink">
+                  <span>{{ $t('common.liveDemo') }}</span>
+                </a>
               </div>
             </div>
           </div>

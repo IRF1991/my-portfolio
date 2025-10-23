@@ -8,13 +8,37 @@
   "profile": {
     "name": "Ismael Raya Fabián",
     "role": "Data Scientist & Data Analyst",
-    "subtitle": "Python • SQL • Power BI • Machine Learning"
+    "subtitle": "Abierto a oportunidades • Junior Data Scientist / Data Analyst"
   },
   "home": {
     "description": {
       "paragraph1": "Tras varios años como cocinero en Alemania y España, di el salto a la *tecnología*. La cocina me aportó *disciplina*, *atención al detalle*, *trabajo en equipo* y capacidad para rendir *bajo presión*.",
       "paragraph2": "Cuento con estudios en *Administración y Finanzas* y en *Desarrollo de Aplicaciones Multiplataforma*. Esta combinación me permite unir *mentalidad analítica*, *visión de negocio* y una base sólida en *programación* y *datos*.",
       "paragraph3": "Busco una oportunidad para *aportar valor desde el primer día*, seguir aprendiendo y crecer en un entorno exigente. Me motivan los *retos*, la *mejora continua* y trabajar en productos con *impacto real*."
+    },
+    "skills": {
+      "personalTags": [
+        "Resolutivo",
+        "Adaptabilidad",
+        "Trabajo en equipo",
+        "Atención al detalle",
+        "Comunicación",
+        "Profesionalidad",
+        "Actitud positiva"
+      ],
+      "technicalTags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Pandas",
+        "Scikit-learn",
+        "NumPy",
+        "GitHub",
+        "Scrum",
+        "Vue.js",
+        "Java",
+        "C#"
+      ]
     },
     "skillsCategories": {
       "personal": "Aptitudes Personales",
@@ -28,19 +52,19 @@
         "title": "Data Science Student",
         "company": "Evolve Academy",
         "period": "Oct. 2025 — Actualidad",
-        "description": "Formación intensiva en análisis de datos, estadística, *Python*, *SQL*, *Power BI* y *machine learning*. Desarrollo de proyectos prácticos aplicando modelos predictivos y visualización de datos."
+        "description": "Formación intensiva en análisis de datos y machine learning aplicada a casos prácticos. Proyectos con foco en extracción de valor y visualización clara para la decisión."
       },
       {
         "title": "Prácticas de Programación",
         "company": "Davante MEDAC, Sevilla",
         "period": "2025",
-        "description": "Desarrollo de simulador con *Unity*. Trabajo colaborativo usando *GitHub* y metodología *Scrum*. Diseño y mantenimiento de *bases de datos*. Experiencia en desarrollo de software y gestión de proyectos."
+        "description": "Desarrollo de simulador con Unity en equipo, usando GitHub y metodología ágil. Diseño y mantenimiento de bases de datos y gestión de tareas."
       },
       {
         "title": "Cocinero",
         "company": "Hoteles y restaurantes - Stuttgart y Sevilla",
         "period": "2015 — 2024",
-        "description": "Trabajo bajo *presión* y *gestión del tiempo*. *Cumplimiento de estándares de calidad*. *Experiencia dirigiendo equipos* y *coordinación*."
+        "description": "Rendimiento en entornos de alta demanda, liderazgo de equipo y cumplimiento de estándares. Organización, precisión y mejora continua."
       }
     ]
   },
@@ -51,25 +75,25 @@
         "title": "Ciclo Superior en Desarrollo de Aplicaciones Multiplataforma",
         "institution": "Centro Docente Privado MEDAC, Sevilla",
         "period": "2023 — 2025",
-        "description": "Formación completa en *desarrollo de software multiplataforma*. Programación en *Java*, *C#*, *bases de datos*, *desarrollo web* y *aplicaciones móviles*. Metodologías ágiles y *gestión de proyectos*."
+        "description": "Formación completa en desarrollo multiplataforma. Programación (Java, C#), bases de datos, web y móviles. Metodologías ágiles y gestión de proyectos."
       },
       {
         "title": "Formación Dual Alemana en Cocina", 
         "institution": "Hotel Marriott Sindelfingen, Stuttgart",
         "period": "2015 — 2018",
-        "description": "*Formación internacional* en sistema dual alemán. Desarrollo de competencias en *organización*, *estándares de calidad internacionales* y *trabajo multicultural*. Experiencia en entorno empresarial de alto nivel."
+        "description": "Formación internacional en sistema dual. Organización, estándares de calidad y trabajo multicultural en entorno exigente."
       },
       {
         "title": "Ciclo Superior en Administración y Finanzas",
         "institution": "IES Joaquín Turina, Sevilla", 
         "period": "2012 — 2014",
-        "description": "Formación en *análisis financiero*, *gestión empresarial* y *tratamiento de datos*. Base sólida en *Excel avanzado*, *contabilidad analítica* y *reporting financiero*."
+        "description": "Análisis financiero, gestión y tratamiento de datos. Excel avanzado, contabilidad y reporting."
       },
       {
         "title": "Ciclo Medio en Gestión y Administración de Empresas",
         "institution": "IES San Bernardo, Sevilla", 
         "period": "2010 — 2012",
-        "description": "Fundamentos de *gestión empresarial*, *atención al cliente* y *procesos administrativos*. Primera aproximación al *análisis de datos* y *sistemas de información*."
+        "description": "Fundamentos de gestión, atención al cliente y procesos. Primer contacto con análisis de datos y sistemas de información."
       }
     ]
   },

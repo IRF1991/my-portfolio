@@ -14,13 +14,7 @@
           <div class="skill-category">
             <h4>{{ $t('home.skillsCategories.personal') }}</h4>
             <div class="skills-tags">
-              <span class="skill-tag">Resolutivo</span>
-              <span class="skill-tag">Adaptabilidad</span>
-              <span class="skill-tag">Trabajo en equipo</span>
-              <span class="skill-tag">Atención al detalle</span>
-              <span class="skill-tag">Comunicación</span>
-              <span class="skill-tag">Profesionalidad</span>
-              <span class="skill-tag">Actitud positiva</span>
+              <span v-for="(tag, idx) in personalTags" :key="'p-'+idx" class="skill-tag">{{ tag }}</span>
             </div>
           </div>
 
@@ -28,32 +22,29 @@
           <div class="skill-category">
             <h4>{{ $t('home.skillsCategories.technical') }}</h4>
             <div class="skills-tags">
-              <span class="skill-tag">Python</span>
-              <span class="skill-tag">SQL</span>
-              <span class="skill-tag">Power BI</span>
-              <span class="skill-tag">Pandas</span>
-              <span class="skill-tag">Scikit-learn</span>
-              <span class="skill-tag">NumPy</span>
-              <span class="skill-tag">GitHub</span>
-              <span class="skill-tag">Scrum</span>
-              <span class="skill-tag">Vue.js</span>
-              <span class="skill-tag">Java</span>
-              <span class="skill-tag">C#</span>
+              <span v-for="(tag, idx) in technicalTags" :key="'t-'+idx" class="skill-tag">{{ tag }}</span>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-</template>
+  </template>
 
 <script>
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
+
 export default {
   name: 'HomeSection',
-  methods: {
-    formatText(text) {
-      return text.replace(/\*(.*?)\*/g, '<strong>$1</strong>');
-    }
+  setup() {
+    const { tm, t } = useI18n()
+    const personalTags = computed(() => tm('home.skills.personalTags'))
+    const technicalTags = computed(() => tm('home.skills.technicalTags'))
+
+    const formatText = (text) => text.replace(/\*(.*?)\*/g, '<strong>$1</strong>')
+
+    return { personalTags, technicalTags, formatText, t }
   }
 }
 </script>

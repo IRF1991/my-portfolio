@@ -8,13 +8,37 @@
   "profile": {
     "name": "Ismael Raya Fabián",
     "role": "Data Scientist & Data Analyst",
-    "subtitle": "Python • SQL • Power BI • Machine Learning"
+    "subtitle": "Open to work • Junior Data Scientist / Data Analyst"
   },
   "home": {
     "description": {
       "paragraph1": "After several years as a chef in Germany and Spain, I transitioned into *tech*. The kitchen gave me *discipline*, *attention to detail*, *teamwork*, and the ability to perform *under pressure*.",
       "paragraph2": "I hold studies in *Business Administration & Finance* and *Multiplatform Application Development*. This mix lets me combine *analytical thinking*, *business perspective*, and a strong foundation in *programming* and *data*.",
       "paragraph3": "I'm actively looking for an opportunity to *add value from day one*, keep learning, and grow in a demanding environment. I'm driven by *challenges*, *continuous improvement*, and building products with *real impact*."
+    },
+    "skills": {
+      "personalTags": [
+        "Problem-solving",
+        "Adaptability",
+        "Teamwork",
+        "Attention to detail",
+        "Communication",
+        "Professionalism",
+        "Positive attitude"
+      ],
+      "technicalTags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Pandas",
+        "Scikit-learn",
+        "NumPy",
+        "GitHub",
+        "Scrum",
+        "Vue.js",
+        "Java",
+        "C#"
+      ]
     },
     "skillsCategories": {
       "personal": "Personal Skills",
@@ -28,19 +52,19 @@
         "title": "Data Science Student",
         "company": "Evolve Academy",
         "period": "Oct. 2025 — Present",
-        "description": "Intensive training in data analysis, statistics, *Python*, *SQL*, *Power BI* and *machine learning*. Development of practical projects applying predictive models and data visualization."
+        "description": "Intensive training in data analysis and machine learning applied to practical cases. Projects focused on business value extraction and clear, decision‑oriented visualization."
       },
       {
         "title": "Programming Internship",
         "company": "Davante MEDAC, Seville",
         "period": "2025",
-        "description": "Simulator development with *Unity*. Collaborative work using *GitHub* and *Scrum* methodology. *Database* design and maintenance. Experience in software development and project management."
+        "description": "Team development of a Unity simulator using GitHub and agile practices. Database design and maintenance, task coordination."
       },
       {
         "title": "Chef",
         "company": "Hotels and restaurants - Stuttgart and Seville",
         "period": "2015 — 2024",
-        "description": "Working under *pressure* and *time management*. *Quality standards compliance*. *Team leadership experience* and *coordination*."
+        "description": "High‑demand service, team leadership, and quality standards compliance. Organization, accuracy, and continuous improvement."
       }
     ]
   },
@@ -51,25 +75,25 @@
         "title": "Higher Level Training Cycle in Multiplatform Application Development",
         "institution": "Private Educational Center MEDAC, Seville",
         "period": "2023 — 2025",
-        "description": "Complete training in *multiplatform software development*. Programming in *Java*, *C#*, *databases*, *web development* and *mobile applications*. Agile methodologies and *project management*."
+        "description": "Comprehensive training in multiplatform development. Programming (Java, C#), databases, web and mobile. Agile methodologies and project management."
       },
       {
         "title": "German Dual Training in Culinary Arts", 
         "institution": "Hotel Marriott Sindelfingen, Stuttgart",
         "period": "2015 — 2018",
-        "description": "*International training* in German dual system. Development of skills in *organization*, *international quality standards* and *multicultural work*. Experience in high-level business environment."
+        "description": "International training in the German dual system. Organization, quality standards and multicultural work in a demanding environment."
       },
       {
         "title": "Higher Level Training Cycle in Business Administration and Finance",
         "institution": "IES Joaquín Turina, Seville", 
         "period": "2012 — 2014",
-        "description": "Training in *financial analysis*, *business management* and *data processing*. Solid foundation in *advanced Excel*, *analytical accounting* and *financial reporting*."
+        "description": "Financial analysis, management and data processing. Advanced Excel, accounting and reporting."
       },
       {
         "title": "Intermediate Level Training Cycle in Business Management and Administration",
         "institution": "IES San Bernardo, Seville", 
         "period": "2010 — 2012",
-        "description": "Fundamentals of *business management*, *customer service* and *administrative processes*. First approach to *data analysis* and *information systems*."
+        "description": "Fundamentals of management, customer service and processes. First approach to data analysis and information systems."
       }
     ]
   },

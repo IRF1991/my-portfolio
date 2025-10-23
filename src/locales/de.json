@@ -8,7 +8,7 @@
   "profile": {
     "name": "Ismael Raya Fabián",
     "role": "Datenwissenschaftler & Datenanalyst",
-    "subtitle": "Python • SQL • Power BI • Machine Learning"
+    "subtitle": "Aktiv auf Jobsuche • Junior Data Scientist / Data Analyst"
   },
   "home": {
     "description": {
@@ -16,9 +16,33 @@
       "paragraph2": "Ich habe eine Ausbildung in *Betriebswirtschaft & Finanzen* sowie in *Multiplattform-Anwendungsentwicklung*. Diese Kombination vereint *analytisches Denken*, *Geschäftsperspektive* und eine solide Grundlage in *Programmierung* und *Daten*.",
       "paragraph3": "Ich suche aktiv eine Möglichkeit, *vom ersten Tag an Mehrwert zu liefern*, weiterzulernen und mich in einem anspruchsvollen Umfeld zu entwickeln. Mich motivieren *Herausforderungen*, *kontinuierliche Verbesserung* und Produkte mit *echtem Einfluss*."
     },
+    "skills": {
+      "personalTags": [
+        "Lösungsorientiert",
+        "Anpassungsfähigkeit",
+        "Teamarbeit",
+        "Detailgenauigkeit",
+        "Kommunikation",
+        "Professionalität",
+        "Positive Einstellung"
+      ],
+      "technicalTags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Pandas",
+        "Scikit-learn",
+        "NumPy",
+        "GitHub",
+        "Scrum",
+        "Vue.js",
+        "Java",
+        "C#"
+      ]
+    },
     "skillsCategories": {
       "personal": "Persönliche Fähigkeiten",
-      "technical": "Technische Fähigkeinen"
+      "technical": "Technische Fähigkeiten"
     }
   },
   "experience": {
@@ -28,19 +52,19 @@
         "title": "Data Science Student",
         "company": "Evolve Academy",
         "period": "Okt. 2025 — Aktuell",
-        "description": "Intensive Ausbildung in Datenanalyse, Statistik, *Python*, *SQL*, *Power BI* und *Machine Learning*. Entwicklung praktischer Projekte mit prädiktiven Modellen und Datenvisualisierung."
+        "description": "Intensive Ausbildung in Datenanalyse und Machine Learning mit praxisnahen Projekten. Fokus auf Geschäftsnutzen und verständliche Visualisierung für Entscheidungen."
       },
       {
         "title": "Programmierpraktikum",
         "company": "Davante MEDAC, Sevilla",
         "period": "2025",
-        "description": "Simulatorentwicklung mit *Unity*. Kollaboratives Arbeiten mit *GitHub* und *Scrum*-Methodik. Design und Wartung von *Datenbanken*. Erfahrung in Softwareentwicklung und Projektmanagement."
+        "description": "Teamentwicklung eines Unity‑Simulators mit GitHub und agilen Methoden. Datenbank‑Design und ‑Wartung, Aufgabenkoordination."
       },
       {
         "title": "Koch",
         "company": "Hotels und Restaurants - Stuttgart und Sevilla",
         "period": "2015 — 2024",
-        "description": "Arbeiten unter *Druck* und *Zeitmanagement*. *Einhaltung von Qualitätsstandards*. *Führungserfahrung im Team* und *Koordination*."
+        "description": "Leistung in anspruchsvollen Umgebungen, Teamführung und Einhaltung von Standards. Organisation, Präzision und kontinuierliche Verbesserung."
       }
     ]
   },
@@ -51,25 +75,25 @@
         "title": "Höhere Berufsausbildung in Multiplattform-Anwendungsentwicklung",
         "institution": "Privates Bildungszentrum MEDAC, Sevilla",
         "period": "2023 — 2025",
-        "description": "Vollständige Ausbildung in *Multiplattform-Softwareentwicklung*. Programmierung in *Java*, *C#*, *Datenbanken*, *Webentwicklung* und *mobile Anwendungen*. Agile Methodiken und *Projektmanagement*."
+        "description": "Umfassende Ausbildung in Multiplattform-Entwicklung. Programmierung (Java, C#), Datenbanken, Web und Mobile. Agile Methoden und Projektmanagement."
       },
       {
         "title": "Deutsche Duale Ausbildung in Gastronomie", 
         "institution": "Hotel Marriott Sindelfingen, Stuttgart",
         "period": "2015 — 2018",
-        "description": "*Internationale Ausbildung* im deutschen dualen System. Entwicklung von Kompetenzen in *Organisation*, *internationalen Qualitätsstandards* und *multikultureller Arbeit*. Erfahrung in hochwertigem Geschäftsumfeld."
+        "description": "Internationale Ausbildung im deutschen dualen System. Organisation, Qualitätsstandards und multikulturelles Arbeiten in einem anspruchsvollen Umfeld."
       },
       {
         "title": "Höhere Berufsausbildung in Betriebswirtschaft und Finanzen",
         "institution": "IES Joaquín Turina, Sevilla", 
         "period": "2012 — 2014",
-        "description": "Ausbildung in *Finanzanalyse*, *Unternehmensführung* und *Datenverarbeitung*. Solide Grundlage in *erweitertem Excel*, *Kostenrechnung* und *Finanzberichterstattung*."
+        "description": "Finanzanalyse, Unternehmensführung und Datenverarbeitung. Fortgeschrittenes Excel, Rechnungswesen und Reporting."
       },
       {
         "title": "Mittlere Berufsausbildung in Unternehmensführung und -verwaltung",
         "institution": "IES San Bernardo, Sevilla", 
         "period": "2010 — 2012",
-        "description": "Grundlagen der *Unternehmensführung*, *Kundenbetreuung* und *Verwaltungsprozesse*. Erster Zugang zu *Datenanalyse* und *Informationssystemen*."
+        "description": "Grundlagen der Unternehmensführung, Kundenbetreuung und Prozesse. Erster Zugang zu Datenanalyse und Informationssystemen."
       }
     ]
   },
