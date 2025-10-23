@@ -56,6 +56,11 @@
       </a>
     </div>
 
+    <!-- CV button (Spanish only) -->
+    <div v-if="isSpanish" class="cv-container">
+      <a :href="cvUrl" target="_blank" rel="noopener noreferrer" class="cv-button">CV (PDF)</a>
+    </div>
+
     <!-- Sidebar border accent -->
     <div class="divider"></div>
   </aside>
@@ -88,10 +93,13 @@ export default {
     ];
 
     const currentLocale = ref(locale.value);
+  const isSpanish = ref(currentLocale.value === 'es');
+  const cvUrl = '/cv/CV_Ismael_Raya_ES.pdf';
 
     const changeLanguage = (langCode) => {
       locale.value = langCode;
       currentLocale.value = langCode;
+      isSpanish.value = langCode === 'es';
       localStorage.setItem('preferred-language', langCode);
     };
 
@@ -100,6 +108,10 @@ export default {
       const savedLang = localStorage.getItem('preferred-language');
       if (savedLang && ['es', 'en', 'de'].includes(savedLang)) {
         changeLanguage(savedLang);
+      }
+      // Ensure isSpanish reflects initial locale if none saved
+      if (!savedLang) {
+        isSpanish.value = locale.value === 'es';
       }
     });
 
@@ -146,6 +158,8 @@ export default {
       sidebarRef, 
       hamburgerRef, 
       openMailInNewTab,
+      isSpanish,
+      cvUrl,
       languages,
       currentLocale,
       changeLanguage
@@ -390,6 +404,33 @@ export default {
 .social-links a:hover img {
   transform: scale(1.1);
   opacity: 1;
+}
+
+/* CV button container */
+.cv-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: var(--sidebar-inset);
+  margin-top: 0.25rem;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #0d0b1b;
+  background: rgba(66, 184, 131, 0.85);
+  border: 1px solid rgba(66, 184, 131, 0.35);
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease, background 0.2s ease;
+}
+
+.cv-button:hover {
+  transform: translateY(-1px);
+  background: rgba(66, 184, 131, 0.95);
 }
 
 /* Sidebar accent border */
