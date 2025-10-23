@@ -45,8 +45,12 @@
             </div>
             
             <div class="project-links">
-              <a href="#" class="project-link github disabled" target="_blank" rel="noopener">
-                <span>{{ $t('common.github') }} (En desarrollo)</span>
+              <a href="https://github.com/IRF1991/GrowFit" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="project-link github"
+                 @click.stop="openExternalLink">
+                <span>{{ $t('common.github') }}</span>
               </a>
             </div>
           </div>
@@ -93,12 +97,15 @@
                 <span class="tech-tag">i18n</span>
               </div>
               
-              <!-- GitHub link temporalmente oculto - issue con Vue Router -->
-              <!-- <div class="project-links">
-                <a href="https://github.com/IRF1991/my-portfolio" target="_blank" rel="noopener noreferrer" class="project-link github">
+              <div class="project-links">
+                <a href="https://github.com/IRF1991/my-portfolio" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="project-link github"
+                   @click.stop="openExternalLink">
                   <span>{{ $t('common.github') }}</span>
                 </a>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -114,6 +121,12 @@ export default {
   methods: {
     formatText(text) {
       return text.replace(/\*(.*?)\*/g, '<strong>$1</strong>');
+    },
+    openExternalLink(event) {
+      // Prevenir que Vue Router intercepte el link
+      event.preventDefault();
+      event.stopPropagation();
+      window.open(event.target.closest('a').href, '_blank');
     }
   }
 };
