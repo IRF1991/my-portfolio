@@ -25,16 +25,22 @@
     "title": "Berufserfahrung",
     "jobs": [
       {
-        "title": "Senior Data Scientist",
-        "company": "Tech Solutions Inc.",
-        "period": "2022 — Aktuell",
-        "description": "Entwicklung von Machine-Learning-Modellen für prädiktive Analytik, Optimierung von Datenpipelines und Erstellung interaktiver Dashboards in Power BI. Leitung eines Teams von 3 Datenanalysten."
+        "title": "Data Science Student",
+        "company": "Evolve Academy",
+        "period": "Okt. 2025 — Aktuell",
+        "description": "Intensive Ausbildung in Datenanalyse, Statistik, *Python*, *SQL*, *Power BI* und *Machine Learning*. Entwicklung praktischer Projekte mit prädiktiven Modellen und Datenvisualisierung."
       },
       {
-        "title": "Datenanalyst",
-        "company": "Analytics Corp",
-        "period": "2020 — 2022", 
-        "description": "Analyse großer Datenmengen, Erstellung automatisierter Berichte und Entwicklung von KPIs für strategische Entscheidungsfindung. Implementierung von ETL-Prozessen."
+        "title": "Programmierpraktikum",
+        "company": "Davante MEDAC, Sevilla",
+        "period": "2025",
+        "description": "Simulatorentwicklung mit *Unity*. Kollaboratives Arbeiten mit *GitHub* und *Scrum*-Methodik. Design und Wartung von *Datenbanken*. Erfahrung in Softwareentwicklung und Projektmanagement."
+      },
+      {
+        "title": "Koch",
+        "company": "Hotels und Restaurants - Stuttgart und Sevilla",
+        "period": "2018 — 2024",
+        "description": "Arbeiten unter *Druck* und *Zeitmanagement*. *Einhaltung von Qualitätsstandards*. *Führungserfahrung im Team* und *Koordination*."
       }
     ]
   },
@@ -42,22 +48,28 @@
     "title": "Ausbildung",
     "items": [
       {
-        "title": "Master in Data Science",
-        "institution": "Universidad Politécnica de Madrid",
-        "period": "2019 — 2021",
-        "description": "Spezialisierung auf maschinelles Lernen, fortgeschrittene statistische Analyse und Big Data. Abschlussprojekt über Zeitreihenvorhersage im Finanzsektor mit LSTM-Neuronalen Netzen."
+        "title": "Höhere Berufsausbildung in Multiplattform-Anwendungsentwicklung",
+        "institution": "Privates Bildungszentrum MEDAC, Sevilla",
+        "period": "2023 — 2025",
+        "description": "Vollständige Ausbildung in *Multiplattform-Softwareentwicklung*. Programmierung in *Java*, *C#*, *Datenbanken*, *Webentwicklung* und *mobile Anwendungen*. Agile Methodiken und *Projektmanagement*."
       },
       {
-        "title": "Bachelor in Mathematik", 
-        "institution": "Universidad Complutense de Madrid",
-        "period": "2015 — 2019",
-        "description": "Solide Grundlage in mathematischer Analysis, Statistik, linearer Algebra und numerischen Methoden. Schwerpunkt in Statistik und Operations Research."
+        "title": "Deutsche Duale Ausbildung in Gastronomie", 
+        "institution": "Hotel Marriott Sindelfingen, Stuttgart",
+        "period": "2015 — 2018",
+        "description": "*Internationale Ausbildung* im deutschen dualen System. Entwicklung von Kompetenzen in *Organisation*, *internationalen Qualitätsstandards* und *multikultureller Arbeit*. Erfahrung in hochwertigem Geschäftsumfeld."
       },
       {
-        "title": "Power BI Zertifizierung",
-        "institution": "Microsoft", 
-        "period": "2022",
-        "description": "Microsoft Certified: Data Analyst Associate. Kompetenzen in Datenmodellierung, Visualisierungserstellung und interaktiver Dashboard-Entwicklung."
+        "title": "Höhere Berufsausbildung in Betriebswirtschaft und Finanzen",
+        "institution": "IES Joaquín Turina, Sevilla", 
+        "period": "2012 — 2014",
+        "description": "Ausbildung in *Finanzanalyse*, *Unternehmensführung* und *Datenverarbeitung*. Solide Grundlage in *erweitertem Excel*, *Kostenrechnung* und *Finanzberichterstattung*."
+      },
+      {
+        "title": "Mittlere Berufsausbildung in Unternehmensführung und -verwaltung",
+        "institution": "IES San Bernardo, Sevilla", 
+        "period": "2010 — 2012",
+        "description": "Grundlagen der *Unternehmensführung*, *Kundenbetreuung* und *Verwaltungsprozesse*. Erster Zugang zu *Datenanalyse* und *Informationssystemen*."
       }
     ]
   },
@@ -65,22 +77,22 @@
     "title": "Projekte",
     "items": [
       {
-        "title": "Verkaufsprognose mit ML",
-        "description": "Machine-Learning-Modell zur Vorhersage von Quartalsverkäufen mit 92% Genauigkeit. Zeitreihenanalyse und externe Faktoren, die die Verkaufsleistung beeinflussen.",
+        "title": "Intelligentes Sport-Progressionssystem",
+        "description": "Anwendung mit *Datenarchitektur* für prädiktive Analyse der Sportadhärenz. Enthält *Empfehlungs-Engine* für automatische Routine-Progression und Übungs-*Knowledge Graph*.",
         "metrics": [
-          { "value": "92%", "label": "Genauigkeit" },
-          { "value": "15%", "label": "ROI Verbesserung" }
+          { "value": "7", "label": "Datenmodelle" },
+          { "value": "ML Ready", "label": "Vorhersagen" }
         ],
-        "preview": "Prädiktives Dashboard"
+        "preview": "Empfehlungssystem"
       },
       {
-        "title": "Executive KPI Dashboard", 
-        "description": "Interaktives Power BI Dashboard für Echtzeit-KPI-Tracking des Unternehmens. Integration mit mehreren Datenquellen und vollständige Automatisierung.",
+        "title": "Professionelles Vue.js Portfolio", 
+        "description": "Responsives Portfolio mit *i18n-System*, *Glassmorphism Design* und dynamischer Navigation. Vollständige Entwicklung mit *Vue 3*, *Vite* und modularer Komponentenarchitektur.",
         "metrics": [
-          { "value": "5", "label": "Datenquellen" },
-          { "value": "Echtzeit", "label": "Updates" }
+          { "value": "3", "label": "Sprachen" },
+          { "value": "100%", "label": "Responsive" }
         ],
-        "preview": "Power BI Dashboard"
+        "preview": "Webentwicklung"
       }
     ]
   },

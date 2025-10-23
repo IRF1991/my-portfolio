@@ -25,16 +25,22 @@
     "title": "Experience",
     "jobs": [
       {
-        "title": "Senior Data Scientist",
-        "company": "Tech Solutions Inc.",
-        "period": "2022 — Present",
-        "description": "Development of machine learning models for predictive analytics, data pipeline optimization, and creation of interactive dashboards in Power BI. Leading a team of 3 data analysts."
+        "title": "Data Science Student",
+        "company": "Evolve Academy",
+        "period": "Oct. 2025 — Present",
+        "description": "Intensive training in data analysis, statistics, *Python*, *SQL*, *Power BI* and *machine learning*. Development of practical projects applying predictive models and data visualization."
       },
       {
-        "title": "Data Analyst",
-        "company": "Analytics Corp",
-        "period": "2020 — 2022", 
-        "description": "Analysis of large data volumes, creation of automated reports, and development of KPIs for strategic decision-making. Implementation of ETL processes."
+        "title": "Programming Internship",
+        "company": "Davante MEDAC, Seville",
+        "period": "2025",
+        "description": "Simulator development with *Unity*. Collaborative work using *GitHub* and *Scrum* methodology. *Database* design and maintenance. Experience in software development and project management."
+      },
+      {
+        "title": "Chef",
+        "company": "Hotels and restaurants - Stuttgart and Seville",
+        "period": "2018 — 2024",
+        "description": "Working under *pressure* and *time management*. *Quality standards compliance*. *Team leadership experience* and *coordination*."
       }
     ]
   },
@@ -42,22 +48,28 @@
     "title": "Education",
     "items": [
       {
-        "title": "Master's in Data Science",
-        "institution": "Universidad Politécnica de Madrid",
-        "period": "2019 — 2021",
-        "description": "Specialization in machine learning, advanced statistical analysis, and big data. Final project on time series prediction in the financial sector using LSTM neural networks."
+        "title": "Higher Level Training Cycle in Multiplatform Application Development",
+        "institution": "Private Educational Center MEDAC, Seville",
+        "period": "2023 — 2025",
+        "description": "Complete training in *multiplatform software development*. Programming in *Java*, *C#*, *databases*, *web development* and *mobile applications*. Agile methodologies and *project management*."
       },
       {
-        "title": "Bachelor's in Mathematics", 
-        "institution": "Universidad Complutense de Madrid",
-        "period": "2015 — 2019",
-        "description": "Solid foundation in mathematical analysis, statistics, linear algebra, and numerical methods. Mention in Statistics and Operations Research."
+        "title": "German Dual Training in Culinary Arts", 
+        "institution": "Hotel Marriott Sindelfingen, Stuttgart",
+        "period": "2015 — 2018",
+        "description": "*International training* in German dual system. Development of skills in *organization*, *international quality standards* and *multicultural work*. Experience in high-level business environment."
       },
       {
-        "title": "Power BI Certification",
-        "institution": "Microsoft", 
-        "period": "2022",
-        "description": "Microsoft Certified: Data Analyst Associate. Skills in data modeling, visualization creation, and interactive dashboard development."
+        "title": "Higher Level Training Cycle in Business Administration and Finance",
+        "institution": "IES Joaquín Turina, Seville", 
+        "period": "2012 — 2014",
+        "description": "Training in *financial analysis*, *business management* and *data processing*. Solid foundation in *advanced Excel*, *analytical accounting* and *financial reporting*."
+      },
+      {
+        "title": "Intermediate Level Training Cycle in Business Management and Administration",
+        "institution": "IES San Bernardo, Seville", 
+        "period": "2010 — 2012",
+        "description": "Fundamentals of *business management*, *customer service* and *administrative processes*. First approach to *data analysis* and *information systems*."
       }
     ]
   },
@@ -65,22 +77,22 @@
     "title": "Projects",
     "items": [
       {
-        "title": "Sales Prediction with ML",
-        "description": "Machine learning model to predict quarterly sales with 92% accuracy. Time series analysis and external factors impacting sales performance.",
+        "title": "Intelligent Sports Progression System",
+        "description": "Application with *data architecture* designed for predictive analysis of sports adherence. Includes *recommendation engine* for automatic routine progression and exercise *knowledge graph*.",
         "metrics": [
-          { "value": "92%", "label": "Accuracy" },
-          { "value": "15%", "label": "ROI Improvement" }
+          { "value": "7", "label": "Data Models" },
+          { "value": "ML Ready", "label": "Predictions" }
         ],
-        "preview": "Predictive Dashboard"
+        "preview": "Recommendation System"
       },
       {
-        "title": "Executive KPI Dashboard", 
-        "description": "Interactive Power BI dashboard for real-time corporate KPI tracking. Integration with multiple data sources and complete automation.",
+        "title": "Professional Vue.js Portfolio", 
+        "description": "Responsive portfolio with *i18n system*, *glassmorphism design* and dynamic navigation. Complete development with *Vue 3*, *Vite* and modular component architecture.",
         "metrics": [
-          { "value": "5", "label": "Data Sources" },
-          { "value": "Real-time", "label": "Updates" }
+          { "value": "3", "label": "Languages" },
+          { "value": "100%", "label": "Responsive" }
         ],
-        "preview": "Power BI Dashboard"
+        "preview": "Web Development"
       }
     ]
   },
